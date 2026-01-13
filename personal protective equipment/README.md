@@ -11,14 +11,47 @@ This system can be used for:
 ## 📦 Dataset
 
 We use the **Construction Site Safety Dataset** from **Roboflow Universe** — a multi-class object detection dataset annotated in YOLO format.  
-🔗 **Dataset Link:** https://universe.roboflow.com/roboflow-universe-projects/construction-site-safety/dataset/30# :contentReference[oaicite:0]{index=0}
+🔗 **Dataset Link:** https://universe.roboflow.com/roboflow-universe-projects/construction-site-safety/dataset/30# 
 
-### 🧠 Classes in the dataset
-The dataset includes the following objects (25+ classes) such as:
-- PPE items: Hardhat, Gloves, Mask, Safety Vest, Safety Cone, etc.
-- Non-PPE violations: NO-Hardhat, NO-Mask, NO-Safety Vest, etc.
-- Vehicles & machines: Excavator, Bus, Truck, Wheel Loader, etc.
-- People: Person  
-*(Full list available in dataset page)* :contentReference[oaicite:1]{index=1}
+## 📥 Model Weights
+
+Download the trained model weights here:  
+🔗 **Weights (Google Drive):** https://drive.google.com/drive/folders/1vtGSUjSSkW50jfBnSo7v-mGF-i61PMNQ?usp=sharing
+
+Place the `best.pt` file inside your project under:
+runs/detect/train/weights/best.pt
 
 
+---
+
+## 🧠 Classes in the dataset
+
+The dataset includes the following object categories:
+
+- Excavator  
+- Gloves  
+- Hardhat  
+- Ladder  
+- Mask  
+- NO-Hardhat  
+- NO-Mask  
+- NO-Safety Vest  
+- Person  
+- SUV  
+- Safety Cone  
+- Safety Vest  
+- Bus  
+- Dump Truck  
+- Fire Hydrant  
+- Machinery  
+- Mini-van  
+- Sedan  
+- Semi  
+- Trailer  
+- Truck and Trailer  
+- Truck  
+- Van  
+- Vehicle  
+- Wheel Loader  
+
+*(Full list available on the dataset page)*
